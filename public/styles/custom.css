@@ -1,18 +1,24 @@
+.navbar .navbar-toggler {
+    padding: 7px;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    font-size: 14px;
+}
+
 .user-logged {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 .user-logged .dropdown-menu-navbar {
-  left: 30px;
-  /* right: 0; */
+    left: 30px;
+    /* right: 0; */
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-  .user-logged .dropdown-menu-navbar {
-    left: auto;
-    right: 0;
-  }
-  
- }
+@media (min-width: 992px) {
+    .user-logged .dropdown-menu-navbar {
+        left: auto;
+        right: 0;
+    }
+}
